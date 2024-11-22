@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         minutes = document.getElementById('minutes'),
         seconds = document.getElementById('seconds');
 
-    const deadline = '2024-10-25';
+    const deadline = '2024-12-25';
     const getTimeRemaining = (d) => {
         const time = Date.parse(d) - Date.parse(new Date);
 
